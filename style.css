@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center ;
+  background-image: url(hd-wallpaper-g6be8eec2c_1920.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  color: aliceblue;
+}
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 2rem;
+  
+}
+h1{margin-top: -20rem;
+    font-size: 4rem;
+    font-weight: normal;
+}
+.big-text{
+    margin:1rem 2rem ;
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+font-size: 1.5rem;
+}
